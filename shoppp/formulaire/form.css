@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+  background: url(176236.jpg) no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     display: flex;
+     padding: 50px;
+}
+.form-elt
+{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns:30% 50% auto ;
+}
+form{
+    background-color: rgba(255, 255, 255, 0.507);
+    backdrop-filter: blur(4px);
+    border: none;
+    border-radius: 4px;
+}
+.hen{
+    float: right;
+}
+legend{
+    background: rgb(88, 139, 88);
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+}
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+input, option, select{
+  border-radius: 10px;
+  border: none;
+  margin: 10px 0;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
